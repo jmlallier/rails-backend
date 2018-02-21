@@ -10,11 +10,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180221011350) do
+ActiveRecord::Schema.define(version: 20180221224709) do
 
   create_table "skills", force: :cascade do |t|
     t.string "name"
     t.string "level"
+    t.boolean "active"
   end
 
 end
