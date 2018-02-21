@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Dependencies
 
-Things you may want to cover:
+- `Ruby 2.5.0`
+- `Rails 5.1.4`
+- `sqlite`
 
-* Ruby version
+Visit the [GoRails Setup Guide](https://gorails.com/setup/) for detailed instructions on setting up Rails in your environment.
 
-* System dependencies
+## Installation
+- `git clone git@github.com:jmlallier/rails-backend.git`
+- `cd rails-backend`
+- `bundle install`
+- `rake db:setup`
+- `rails s`
 
-* Configuration
+## Output
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Visit [Localhost](http://localhost:3000/skills.json) to view the JSON output or clone and install the accompanying [Ember frontend project](https://github.com/jmlallier/ember-frontend).
